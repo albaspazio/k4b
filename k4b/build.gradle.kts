@@ -39,4 +39,8 @@ dependencies {
     api("com.intentfilter:android-permissions:2.0.54")
 
     implementation(project(":core"))
+
+    testImplementation("junit:junit:4.13")
+    androidTestImplementation("androidx.test:runner:1.2.0")
+    androidTestImplementation("androidx.test.espresso:espresso-core:3.2.0")
 }
