@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.albaspazio.k4b.K4BKeyboardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/keyboard_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:keyPreviewLayout="@layout/key_preview"
+    android:layout_alignParentBottom="true">
+<!--    android:keyBackground="@drawable/key_background"-->
+<!--    android:keyTextColor="#fff"-->
+<!--    android:background="@color/colorPrimaryDark"    -->
+
+
+</org.albaspazio.k4b.K4BKeyboardView>

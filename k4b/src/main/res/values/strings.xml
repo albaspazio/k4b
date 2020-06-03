@@ -1,0 +1,99 @@
+<resources>
+    <string name="app_name">Keyboard4blind</string>
+    <string name="keyboard_label">K4B</string>
+
+    <string name="warn_tts_language_notsupported">La lingua specificata non esiste</string>
+    <string name="error_tts_notinitialized">Inizializzazione fallita!</string>
+
+    <string name="k4b_text_confirmed">hai inserito il testo %1$s</string>
+    <string name="k4b_text_aborted">il precedente testo è stato ripristinato</string>
+    <string name="k4b_modality_changed">sei passato alla modalità %1$s </string>
+
+    <string name="k4b_modality_keyboard">tastiera</string>
+    <string name="k4b_modality_speech">voce</string>
+
+    <string name="k4b_char_inserted">inserito %1$s</string>
+    <string name="k4b_char_delete">cancella carattere</string>
+    <string name="k4b_char_deleted">cancellato %1$s </string>
+
+    <string name="k4b_word_delete">cancella parola precedente</string>
+
+    <string name="k4b_all_delete">cancella intero testo</string>
+    <string name="k4b_all_deleted">intero testo cancellato</string>
+
+    <string name="k4b_char_space">spazio</string>
+    <string name="k4b_char_final_space_char">… spazio finale</string>
+    <string name="k4b_char_dot">punto</string>
+    <string name="k4b_char_comma">virgola</string>
+
+    <string name="k4b_char_change_subtype">cambia modalità di input</string>
+    <string name="k4b_char_done">conferma il testo</string>
+    <string name="k4b_char_cancel">esci senza modificare il testo</string>
+    <string name="k4b_char_playback_text">riproduci testo</string>
+    <string name="k4b_word_recognize">aggiungi frase</string>
+    <string name="k4b_word_long_recognize">sostituisci frase</string>
+
+    <string name="k4b_char_left_shift">sposta cursore a sinistra</string>
+    <string name="k4b_char_right_shift">sposta cursore a destra</string>
+
+    <string name="k4b_word_left_shift">sposta cursore alla parola precedente</string>
+    <string name="k4b_word_right_shift">sposta cursore alla parola successiva</string>
+
+    <string name="k4b_char_cursor_left_shifted">cursore spostato a sinistra</string>
+    <string name="k4b_char_cursor_right_shifted">cursore spostato a destra</string>
+
+    <string name="k4b_word_cursor_left_shifted">cursore spostato alla parola precedente</string>
+    <string name="k4b_word_cursor_right_shifted">cursore spostato alla parola successiva</string>
+
+    <string name="k4b_cursor_shifted_home">cursore spostato all\'inizio del testo</string>
+    <string name="k4b_cursor_shifted_end">cursore spostato alla fine del testo</string>
+
+    <string name="k4b_cursor_already_home">il cursore è già all\'inizio del testo</string>
+    <string name="k4b_cursor_already_end">il cursore è già alla fine del testo</string>
+
+    <string name="k4b_char_playback_text_empty">il testo è vuoto</string>
+
+    <string name="k4b_char_recognition_error">errore di riconoscimento, codice %1$s </string>
+    <string name="k4b_char_recognition_empty">non ho riconosciuto alcuna parola </string>
+
+    <string name="k4b_char_empty">bordo inferiore</string>
+
+    <string name="k4b_start_editing_empty_text">scrivi il testo</string>
+    <string name="k4b_start_editing_notempty_text">puoi modificare il testo %1$s</string>
+
+    <string name="k4b_audiorecord_permission_denied">Devi abilitare il permesso di registrare l\' audio</string>
+
+    <string name="label_subtype_generic">%s</string>
+    <string name="label_speech_input">Riconoscimento Parlato</string>
+
+    <!-- Labels on soft keys -->
+    <string name="label_go_key">Go</string>
+    <string name="label_next_key">Next</string>
+    <string name="label_send_key">Send</string>
+
+    <!-- Titles for ImePreference -->
+    <string name="settings_name">Keyboard 4 Blind Settings</string>
+    <string name="language_selection_title">Input languages</string>
+    <string name="select_language">Select input languages</string>
+    <string name="general_category">General</string>
+
+    <string name="menuAbout">About</string>
+    <string name="menuHelp">Help</string>
+    <string name="urlDoc" translatable="false">http://kaljurand.github.io/K6nele/docs/et/user_guide.html</string>
+    <string name="tvAbout"> </string>
+
+
+<!--    <string name="defaultMaxResults" translatable="false">1</string>-->
+
+<!--    <plurals name="summaryMaxResults">-->
+<!--        <item quantity="one">Output only the most likely recognition hypothesis</item>-->
+<!--        <item quantity="other">Output at most %d recognition hypotheses</item>-->
+<!--    </plurals>-->
+
+
+<!--    <string name="emptylistImeCombos">Currently using Estonian and Kõnele (fast recognition). Tap here to add or change languages and services.</string>-->
+<!--    <string name="emptylistCombos">@string/emptylistImeCombos</string>-->
+<!--    <string name="labelComboListItem" translatable="false">• %2$s · %1$s</string>-->
+<!--    <string name="labelComboItem" translatable="false">%2$s · %1$s</string>-->
+
+</resources>

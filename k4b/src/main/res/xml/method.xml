@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<input-method xmlns:android="http://schemas.android.com/apk/res/android"
+    android:settingsActivity="org.albaspazio.k4b.activity.Preferences">
+<!--    android:supportsSwitchingToNextInputMethod="true">-->
+
+    <subtype
+        android:label="@string/label_subtype_generic"
+        android:overridesImplicitlyEnabledSubtype="true"
+        android:imeSubtypeMode="keyboard"/>
+<!--    <subtype-->
+<!--        android:label="@string/label_speech_input"-->
+<!--        android:imeSubtypeLocale=""-->
+<!--        android:imeSubtypeMode="voice"/>-->
+
+</input-method>

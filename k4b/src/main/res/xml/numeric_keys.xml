@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:keyWidth="20%p" android:keyHeight="80dp">
+
+    <Row>
+        <Key android:codes="-2" android:keyIcon="@drawable/ic_ime" android:keyHeight="160dip" android:keyEdgeFlags="left"/>
+        <Key android:codes="49" android:keyLabel="1"/>
+        <Key android:codes="50" android:keyLabel="2"/>
+        <Key android:codes="51" android:keyLabel="3"/>
+        <Key android:codes="-3" android:keyIcon="@drawable/ic_undo" android:keyHeight="160dip" android:keyEdgeFlags="right"/>
+    </Row>
+
+    <Row>
+        <Key android:codes="52" android:keyLabel="4" android:horizontalGap="20%p"/>
+        <Key android:codes="53" android:keyLabel="5"/>
+        <Key android:codes="54" android:keyLabel="6"/>
+    </Row>
+
+    <Row>
+        <Key android:codes="-4" android:keyIcon="@drawable/ic_send" android:keyHeight="240dp" android:keyEdgeFlags="left"/>
+        <Key android:codes="55" android:keyLabel="7"/>
+        <Key android:codes="56" android:keyLabel="8"/>
+        <Key android:codes="57" android:keyLabel="9"/>
+        <Key android:codes="-5" android:keyIcon="@drawable/sym_keyboard_delete" android:keyHeight="240dip" android:keyEdgeFlags="right"/>
+    </Row>
+
+    <Row>
+        <Key android:codes="-80" android:keyLabel="" android:horizontalGap="20%p"/>
+        <Key android:codes="48"  android:keyLabel="0"/>
+        <Key android:codes="45"  android:keyLabel="-"/>
+    </Row>
+
+    <Row android:rowEdgeFlags="bottom">
+        <Key android:codes="-50" android:keyLabel="@string/k4b_char_playback_text" android:keyWidth="60%p" android:horizontalGap="20%p"/>
+    </Row>
+
+    <Row android:rowEdgeFlags="bottom">
+        <Key android:codes="-60" android:keyLabel="" android:keyWidth="100%p" android:keyHeight="240dip"/>
+    </Row>
+
+</Keyboard>

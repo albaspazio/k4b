@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:keyWidth="33%p"
+    android:horizontalGap="0px"
+    android:verticalGap="0px"
+    android:keyHeight="@dimen/big_keys_height">
+
+    <Row>
+        <Key android:codes="-2" android:keyIcon="@drawable/ic_ime" android:keyEdgeFlags="left"/>
+        <Key android:codes="-70" android:keyLabel="@string/k4b_word_recognize" android:keyHeight="320dip"/>
+        <Key android:codes="-3" android:keyIcon="@drawable/ic_undo" android:keyEdgeFlags="right"/>
+    </Row>
+
+    <Row>
+        <Key android:codes="-4"  android:keyIcon="@drawable/ic_send" android:keyEdgeFlags="left"/>
+        <Key android:codes="-5"  android:keyIcon="@drawable/sym_keyboard_delete" android:horizontalGap="33%p" android:keyEdgeFlags="right"/>
+    </Row>
+
+    <Row>
+        <Key android:codes="-90" android:keyIcon="@drawable/ic_keyboard_arrow_left_24px" android:keyEdgeFlags="left"/>
+        <Key android:codes="-50" android:keyLabel="@string/k4b_char_playback_text"/>
+        <Key android:codes="-100" android:keyIcon="@drawable/ic_keyboard_arrow_right_24px" android:keyEdgeFlags="right"/>
+    </Row>
+
+    <Row android:rowEdgeFlags="bottom">
+        <Key android:codes="-60"  android:keyLabel=" " android:keyWidth="100%p" android:keyHeight="40%p"/>
+    </Row>
+
+</Keyboard>
